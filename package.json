@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "homepage": "https://hira2737.github.io/H27_portfolio",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,9 +13,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "homepage": "https://your-username.github.io/your-repo-name",
+    "test:watch": "vitest"
   },
+
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
@@ -66,6 +69,7 @@
     "vaul": "^0.9.9",
     "zod": "^3.25.76"
   },
+
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@playwright/test": "^1.57.0",
