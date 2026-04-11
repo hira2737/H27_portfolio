@@ -668,16 +668,6 @@
     backdrop-filter: blur(6px);
   }
 
-  .python-logo-img {
-    width: 1.35rem;
-    height: auto;
-    display: inline-flex;
-    flex-shrink: 0;
-    margin-right: 0.25rem;
-    object-fit: contain;
-    filter: drop-shadow(0 1px 4px hsl(0 0% 0% / 0.25));
-  }
-
   /* ===== CONTACT GRADIENT (UNTOUCHED) ===== */
   .contact-gradient {
     background: linear-gradient(135deg, 
