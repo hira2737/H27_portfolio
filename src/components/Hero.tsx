@@ -122,7 +122,7 @@ const Hero = () => {
                 <HiMail size={18} /> Contact Me
               </a>
               <a
-                href="/Hira_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Hira_Resume.pdf`}
                 download="Hira_Resume.pdf"
                 className="btn-outline-glow flex items-center justify-center gap-2 w-full sm:w-auto"
               >
