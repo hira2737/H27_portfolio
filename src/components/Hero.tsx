@@ -122,8 +122,8 @@ const Hero = () => {
                 <HiMail size={18} /> Contact Me
               </a>
               <a
-                href="/Resume_Hira.pdf"
-                download="Resume_Hira.pdf"
+                href="/Hira_Resume.pdf"
+                download="Hira_Resume.pdf"
                 className="btn-outline-glow flex items-center justify-center gap-2 w-full sm:w-auto"
               >
                 <HiDownload size={18} /> Download Resume
