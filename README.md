@@ -70,8 +70,8 @@ This is a **professional portfolio website** built with cutting-edge web technol
 ## Installation & Setup
 
 ### Prerequisites
-- **Node.js** 16+ 
-- **npm** or **bun** package manager
+- **Node.js** 16+
+- **npm** package manager
 - **Git**
 
 ### Clone Repository
@@ -83,37 +83,27 @@ cd H27_portfolio
 ### Install Dependencies
 ```bash
 npm install
-# or
-bun install
 ```
 
 ### Development Server
 ```bash
 npm run dev
-# or
-bun dev
 ```
 The app will be available at `http://localhost:5173`
 
 ### Build for Production
 ```bash
 npm run build
-# or
-bun run build
 ```
 
 ### Preview Production Build
 ```bash
 npm run preview
-# or
-bun run preview
 ```
 
 ### Deploy to GitHub Pages
 ```bash
 npm run deploy
-# or
-bun run deploy
 ```
 
 ---
@@ -130,7 +120,7 @@ This portfolio is deployed on **GitHub Pages** at:
 4. GitHub Pages automatically deploys from the `gh-pages` branch
 
 **Live Demo Sections:**
-- Hero Section – Personal introduction and call-to-action
+- Home Section – Personal introduction and call-to-action
 - About – Background and career goals
 - Education – Academic qualifications
 - Skills – Technical expertise
@@ -212,27 +202,20 @@ Hira_Portfolio/
 
 ## Screenshots
 
-### Desktop View
-<div align="center">
-  <img alt="Portfolio Desktop - Hero Section" src="https://via.placeholder.com/800x600?text=Hero+Section" width="600" />
-  <p><em>Hero Section with animated background</em></p>
-</div>
+### Home Page
+![Home Page](path/to/image)
 
-<div align="center">
-  <img alt="Portfolio Desktop - About Section" src="https://via.placeholder.com/800x600?text=About+Section" width="600" />
-  <p><em>About Section</em></p>
-</div>
+### About Section
+![About Section](path/to/image)
 
-<div align="center">
-  <img alt="Portfolio Desktop - Projects Section" src="https://via.placeholder.com/800x600?text=Projects+Section" width="600" />
-  <p><em>Projects Showcase</em></p>
-</div>
+### Projects Section
+![Projects Section](path/to/image)
+
+### Contact Page
+![Contact Page](path/to/image)
 
 ### Mobile View
-<div align="center">
-  <img alt="Portfolio Mobile" src="https://via.placeholder.com/300x600?text=Mobile+View" width="300" />
-  <p><em>Responsive Mobile Design</em></p>
-</div>
+![Mobile View](path/to/image)
 
 ---
 
@@ -329,7 +312,7 @@ Feel free to reach out! I'm open to internships, collaborations, and opportuniti
 |----------|------|
 | **GitHub** | [@hira2737](https://github.com/hira2737) |
 | **LinkedIn** | [@hira2737](https://www.linkedin.com/in/hira2737/) |
-| **Email** | [Contact Form](https://hira2737.github.io/H27_portfolio/#contact) |
+| **Email** | [PASTE YOUR EMAIL HERE](mailto:PASTE_YOUR_EMAIL_HERE) |
 | **Portfolio** | [Visit Now](https://hira2737.github.io/H27_portfolio/) |
 
 </div>
