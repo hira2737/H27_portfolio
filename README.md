@@ -294,7 +294,6 @@ Feel free to reach out! I'm open to internships, collaborations, and opportuniti
 |----------|------|
 | **GitHub** | [@hira2737](https://github.com/hira2737) |
 | **LinkedIn** | [@hira2737](https://www.linkedin.com/in/hira2737/) |
-| **Email** | [Contact Form](https://hira2737.github.io/H27_portfolio/#contact) |
 | **Portfolio** | [Visit Now](https://hira2737.github.io/H27_portfolio/) |
 
 </div>
