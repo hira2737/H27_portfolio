@@ -201,32 +201,6 @@ Hira_Portfolio/
 
 ---
 
-## Screenshots
-
-### Desktop View
-<div align="center">
-  <img alt="Portfolio Desktop - Home" src="1.jpeg" width="600" />
-  <p><em>Hero Section with animated background</em></p>
-</div>
-
-<div align="center">
-  <img alt="Portfolio Desktop - About Section" src="2.jpeg" width="600" />
-  <p><em>About Section</em></p>
-</div>
-
-<div align="center">
-  <img alt="Portfolio Desktop - Projects Section" src="3.jpeg" width="600" />
-  <p><em>Projects Showcase</em></p>
-</div>
-
-### Mobile View
-<div align="center">
-  <img alt="Portfolio Mobile" src="4.jpeg" width="300" />
-  <p><em>Responsive Mobile Design</em></p>
-</div>
-
----
-
 ## Key Features Explained
 
 ### Responsive Design
