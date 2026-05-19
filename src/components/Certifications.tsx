@@ -12,6 +12,11 @@ const certs = [
     issuer: "NPTEL",
     link: "https://drive.google.com/file/d/14LB1GmoznsxJ8bFCY6ac-ocUvmavHgHO/view",
   },
+ {
+    title: "Programming in Java",
+    issuer: "NPTEL",
+    link: "https://drive.google.com/file/d/1LD5ZKuaKJ5orx7qtlzU4arlx44TJ1peT/view?usp=sharing",
+  },
   {
     title: "Frontend Developer (React)",
     issuer: "HackerRank",
@@ -46,7 +51,7 @@ const Certifications = () => (
         Verified credentials that reflect my ongoing learning in development and modern technologies.
       </motion.p>
 
-      <div className="grid sm:grid-cols-2 gap-6">
+      <div className="grid sm:grid-cols-2 md:grid-cols-6 gap-6">
         {certs.map((cert, i) => (
           <motion.div
             key={i}
@@ -54,7 +59,9 @@ const Certifications = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.5 }}
-            className="glass-card-hover p-6 group"
+            className={`glass-card-hover p-6 group h-full flex flex-col sm:col-span-1 md:col-span-2 ${
+              i === 3 ? "md:col-start-2" : ""
+            }`}
           >
             <div className="w-10 h-10 rounded-lg bg-accent/15 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
               <FaCertificate className="text-accent" />
@@ -65,7 +72,7 @@ const Certifications = () => (
               href={cert.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-outline-glow flex items-center gap-2 text-sm !px-4 !py-2 w-fit"
+              className="btn-outline-glow flex items-center gap-2 text-sm !px-4 !py-2 w-fit mt-auto"
             >
               <FaExternalLinkAlt size={12} /> View Certificate
             </a>
